@@ -1,0 +1,31 @@
+{
+  "name": "rdx-example",
+  "version": "0.0.0",
+  "description": "An example project for the RDX compiler.",
+  "main": "src/index-entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rdx serve -a src/index.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resistdesign/rdx-example.git"
+  },
+  "keywords": [
+    "RDX",
+    "Example"
+  ],
+  "author": "Resist Design",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/resistdesign/rdx-example/issues"
+  },
+  "homepage": "https://github.com/resistdesign/rdx-example#readme",
+  "devDependencies": {
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
