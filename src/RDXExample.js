@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import AwesomeButton from './comps/AwesomeButton';
 
 export default class RDXExample extends Component {
